@@ -122,5 +122,3 @@ These show model accuracy and loss (train vs. test) during training.
 
 Department of Electrical and Computer Engineering  
 Tandon School of Engineering, New York University
-```
-
