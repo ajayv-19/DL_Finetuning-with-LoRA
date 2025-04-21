@@ -1,9 +1,11 @@
+---
+
+```markdown
 # DL_Finetuning-with-LoRA
 This is the project repository for deep learning assignment 2
 
 ---
 
-```markdown
 # Fine-Tuning RoBERTa with Custom LoRA for AGNEWS Classification
 
 This repository contains a custom Low-Rank Adaptation (LoRA) implementation for fine-tuning the RoBERTa-base model on the AGNEWS text classification task. The goal was to stay within a strict limit of **less than 1 million trainable parameters** while achieving competitive performance.
@@ -13,17 +15,17 @@ This repository contains a custom Low-Rank Adaptation (LoRA) implementation for 
 ## Project Structure
 
 ```
-├── checkpoints/                  # Saved model checkpoints
-├── results/                      # Accuracy & Loss plots for each LoRA config
-│   ├── r12_alpha36/
-│   ├── r12_alpha48/
-│   ├── r12_alpha60/
-│   └── ...
-├── custom6.ipynb                 # Main training & evaluation notebook
-├── custom_lora_sweep.ipynb       # Sweep notebook for alpha/r
-├── Lightweight_RoBERTa_PEFT_LORA_FineTuning.ipynb  # Experimental sweep
-├── test_unlabelled.pkl           # Provided test set for prediction
-├── README.md                     # This file
+├── checkpoints/                                  # Saved model checkpoints  
+├── results/                                      # Accuracy & Loss plots for each LoRA config  
+│   ├── r12_alpha36/  
+│   ├── r12_alpha48/  
+│   ├── r12_alpha60/  
+│   └── ...  
+├── custom6.ipynb                                 # Main training & evaluation notebook  
+├── custom_lora_sweep.ipynb                       # Sweep notebook for alpha/r  
+├── Lightweight_RoBERTa_PEFT_LORA_FineTuning.ipynb  # Experimental sweep  
+├── test_unlabelled.pkl                           # Provided test set from AGNEWS competition  
+├── README.md                                     # This file  
 ```
 
 ## Key Highlights
@@ -107,7 +109,6 @@ These show model accuracy and loss (train vs. test) during training.
 - No early stopping — likely overfitting
 - Padding was fixed at 512 tokens; dynamic padding could improve efficiency
 
-
 ## References
 
 - Hu et al., [LoRA: Low-Rank Adaptation](https://arxiv.org/abs/2106.09685)
@@ -122,3 +123,4 @@ These show model accuracy and loss (train vs. test) during training.
 
 Department of Electrical and Computer Engineering  
 Tandon School of Engineering, New York University
+```
