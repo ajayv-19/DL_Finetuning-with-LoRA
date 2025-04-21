@@ -65,7 +65,6 @@ or
 pip install --pre torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/nightly/cpu
 ```
 
-Ensure you are on macOS 12.3+ with Xcode CLT installed.
 
 ## 🚀 Running the Code
 
