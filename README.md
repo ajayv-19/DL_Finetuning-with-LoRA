@@ -107,12 +107,6 @@ These show model accuracy and loss (train vs. test) during training.
 - No early stopping — likely overfitting
 - Padding was fixed at 512 tokens; dynamic padding could improve efficiency
 
-## 💡 Lessons Learned
-
-1. Always use a validation set to select the best checkpoint
-2. Early stopping is essential to avoid overfitting
-3. Dynamic padding helps speed up training
-4. While custom LoRA works, using libraries like `peft` makes experimentation easier
 
 ## References
 
