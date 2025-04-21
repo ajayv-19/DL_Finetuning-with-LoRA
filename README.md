@@ -119,7 +119,3 @@ Tandon School of Engineering, New York University
 ```
 
 ---
-
-✅ You can now paste this directly into your GitHub `README.md` editor — it will work exactly like the one in your screenshots.
-
-Let me know if you want badges (e.g., Python version, license, etc.) added to the top.
