@@ -26,6 +26,21 @@ This repository contains a custom Low-Rank Adaptation (LoRA) implementation for 
 ├── README.md                     # This file
 ```
 
+## Project Structure
+
+```text
+├── checkpoints/                   # Saved model checkpoints
+├── results/                        # Accuracy & Loss plots for each LoRA config
+│   ├── r12_alpha36/
+│   ├── r12_alpha48/
+│   ├── r12_alpha60/
+│   └── ...
+├── custom6.ipynb                   # Main training & evaluation notebook
+├── custom_lora_sweep.ipynb          # Sweep notebook for alpha/r
+├── Lightweight_RoBERTa_PEFT_LORA_FineTuning.ipynb   # Experimental sweep
+├── test_unlabelled.pkl              # Provided test set for prediction
+└── README.md                        # This file
+
 ## Key Highlights
 
 - Model: RoBERTa-base (pretrained, frozen)
